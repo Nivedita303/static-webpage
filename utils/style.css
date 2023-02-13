@@ -1,0 +1,198 @@
+html,
+body {
+    height: 100%;
+    scroll-behavior: smooth;
+    margin: 0;
+    overflow: auto;
+    font-family: "Metropolis", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+}
+
+
+/* --------------------Navigation bar-------------------- */
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    background-color: #000;
+    opacity: 90%;
+}
+
+.navbar .logo {
+    float: left;
+    padding: 12px 20px;
+}
+
+.navbar .logo-image {
+    width: 52px;
+    height: 52px;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+    transition: transform 150ms ease-in-out;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 28px 60px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    font-weight: 900;
+    font-size: 18px;
+    color: red;
+}
+
+
+/* --------------------Main-------------------- */
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+.section {
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* --------------------Container customnisation-------------------- */
+
+
+/* ----------Home customnisation---------- */
+
+#home {
+    padding: 0 8% 0 0;
+}
+
+.home {
+    height: 65%;
+}
+
+.home1 {
+    flex: 3;
+}
+
+.theme-image {
+    width: 100%;
+    height: 100%;
+}
+
+.home2 {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2.5;
+    font-style: oblique;
+    overflow: hidden;
+    padding: 0px 50px;
+    background-color: #e5332d;
+    color: #fff;
+    border-radius: 25px;
+}
+
+
+/* ----------About customnisation---------- */
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-heading {
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+    height: 60%;
+    text-align: center;
+}
+
+.about-sub-heading {
+    font-weight: 900;
+    font-size: x-large;
+    border-bottom: 1px solid #000
+}
+
+.about-sub-section {
+    width: 90%;
+    height: 70%;
+    padding: 20px;
+    background: #ededed;
+    line-height: 1.5;
+}
+
+.about-content {
+    padding: 20px 0;
+    line-height: 2.5;
+}
+
+
+/* ----------Footer customnisation---------- */
+
+#contact {
+    height: 25%;
+    background-color: black;
+}
+
+.contact {
+    width: 35%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-left: 100px;
+    color: #fff;
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: larger;
+    font-weight: 900;
+    border-bottom: 1px solid #fff
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+.footer-image {
+    margin-right: 16px;
+    height: 25px;
+}
+
+.footer-image:hover {
+    transform: scale(1.2);
+    transition: transform 150ms ease-in-out;
+    cursor: pointer;
+}
