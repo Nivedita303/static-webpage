@@ -72,15 +72,16 @@ body {
 /* ----------Home customnisation---------- */
 
 #home {
-    padding: 0 8% 0 0;
+    padding: 0 0 0 0;
 }
 
 .home {
-    height: 65%;
+    height: 100%;
 }
 
 .home1 {
     flex: 3;
+    height: 65%;
 }
 
 .theme-image {
@@ -100,7 +101,6 @@ body {
     padding: 0px 50px;
     background-color: #e5332d;
     color: #fff;
-    border-radius: 25px;
 }
 
 
@@ -111,16 +111,24 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
+    height: 100%;
 }
 
 .about-heading {
     font-weight: 900;
     font-size: xx-large;
+    width: 80%;
+    height: 10%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .about-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     width: 80%;
@@ -128,18 +136,18 @@ body {
     text-align: center;
 }
 
-.about-sub-heading {
-    font-weight: 900;
-    font-size: x-large;
-    border-bottom: 1px solid #000
-}
-
 .about-sub-section {
-    width: 90%;
+    width: 45%;
     height: 70%;
     padding: 20px;
     background: #ededed;
     line-height: 1.5;
+}
+
+.about-sub-heading {
+    font-weight: 900;
+    font-size: x-large;
+    border-bottom: 1px solid #000
 }
 
 .about-content {
