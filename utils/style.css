@@ -29,7 +29,7 @@ body {
 }
 
 .logo:hover {
-    transform: scale(1.2);
+    transform: scale(1.3);
     transition: transform 150ms ease-in-out;
 }
 
@@ -66,10 +66,10 @@ body {
 }
 
 
-/* --------------------Container customnisation-------------------- */
+/* --------------------Container customisation-------------------- */
 
 
-/* ----------Home customnisation---------- */
+/* ----------Home customisation---------- */
 
 #home {
     padding: 0 0 0 0;
@@ -95,7 +95,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    line-height: 2.5;
+    line-height: 2.0;
     font-style: oblique;
     overflow: hidden;
     padding: 0px 50px;
@@ -104,7 +104,7 @@ body {
 }
 
 
-/* ----------About customnisation---------- */
+/* ----------About customisation---------- */
 
 #about {
     display: flex;
@@ -142,6 +142,7 @@ body {
     padding: 20px;
     background: #ededed;
     line-height: 1.5;
+    border-radius: 20px;
 }
 
 .about-sub-heading {
@@ -156,7 +157,7 @@ body {
 }
 
 
-/* ----------Footer customnisation---------- */
+/* ----------Footer customisation---------- */
 
 #contact {
     height: 25%;
