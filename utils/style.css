@@ -4,51 +4,33 @@ body {
     scroll-behavior: smooth;
     margin: 0;
     overflow: auto;
-    font-family: "Metropolis", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+    font-family: "Gill Sans", sans-serif;
 }
-
 
 /* --------------------Navigation bar-------------------- */
 
 .navbar {
-    overflow: hidden;
     position: fixed;
     width: 100%;
-    background-color: #000;
-    opacity: 90%;
-}
-
-.navbar .logo {
-    float: left;
-    padding: 12px 20px;
-}
-
-.navbar .logo-image {
-    width: 52px;
-    height: 52px;
-}
-
-.logo:hover {
-    transform: scale(1.3);
-    transition: transform 150ms ease-in-out;
 }
 
 .navbar a {
-    float: right;
+    float: left;
     display: block;
     color: #fff;
     text-align: center;
-    padding: 28px 60px;
     text-decoration: none;
     font-size: 16px;
+    width: 16.6%;
+    margin: 20px 0px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
 }
 
 .navbar a:hover {
-    font-weight: 900;
+    font-weight: 700;
     font-size: 18px;
-    color: red;
+    transition: 0.2s;
 }
-
 
 /* --------------------Main-------------------- */
 
@@ -61,147 +43,78 @@ body {
     height: 100%;
     max-width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    color: white;
+    padding: 0px 40px;
+    line-height: 32px;
+    font-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 101%;
 }
 
+.section h1,
+h2 {
+    padding: 12px 0px;
+    border-bottom: 1px solid #fff;
+
+}
+
+.section ul {
+    list-style-type: circle;
+}
 
 /* --------------------Container customisation-------------------- */
-
 
 /* ----------Home customisation---------- */
 
 #home {
-    padding: 0 0 0 0;
-}
-
-.home {
-    height: 100%;
-}
-
-.home1 {
-    flex: 3;
-    height: 65%;
-}
-
-.theme-image {
+    background-image: url(../assets/theme.png);
     width: 100%;
     height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 101%;
+    padding: 0px;
 }
 
-.home2 {
-    flex: 1;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    line-height: 2.0;
-    font-style: oblique;
-    overflow: hidden;
-    padding: 0px 50px;
-    background-color: #e5332d;
-    color: #fff;
+.dark_theme {
+    background-image: url(../assets/dark-background.png);
 }
 
+.red_theme {
+    background-image: url(../assets/red-background.png);
+}
 
-/* ----------About customisation---------- */
-
+#mission_vision,
 #about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
+    line-height: 28px;
+    font-size: 18px;
 }
 
-.about-heading {
-    font-weight: 900;
-    font-size: xx-large;
-    width: 80%;
-    height: 10%;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-
-.about-section {
+.sub-section {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    width: 80%;
-    height: 60%;
+}
+
+.a {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.b {
+    flex: 1.5;
+    margin-left: 20px;
+}
+
+.quotes {
     text-align: center;
+    font-style: italic;
+    font-size: 16px;
 }
 
-.about-sub-section {
-    width: 45%;
-    height: 70%;
-    padding: 20px;
-    background: #ededed;
-    line-height: 1.5;
-    border-radius: 20px;
-}
-
-.about-sub-heading {
-    font-weight: 900;
-    font-size: x-large;
-    border-bottom: 1px solid #000
-}
-
-.about-content {
-    padding: 20px 0;
-    line-height: 2.5;
-}
-
-
-/* ----------Footer customisation---------- */
-
-#contact {
-    height: 25%;
-    background-color: black;
-}
-
-.contact {
-    width: 35%;
-    height: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
-    padding-left: 100px;
-    color: #fff;
-}
-
-.footer-heading {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    margin-bottom: 10px;
-    font-size: larger;
-    font-weight: 900;
-    border-bottom: 1px solid #fff
-}
-
-.footer-text {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    margin-bottom: 5px;
-    line-height: 1.5;
-}
-
-.footer-image {
-    margin-right: 16px;
-    height: 25px;
-}
-
-.footer-image:hover {
-    transform: scale(1.2);
-    transition: transform 150ms ease-in-out;
-    cursor: pointer;
+h2 {
+    border: none;
+    padding: 0px
 }
